@@ -1,0 +1,26 @@
+.dropdown-menu
+{
+  margin-left: -126%;
+}
+.loginform{
+  margin-top: 5%;
+  font-style: italic;
+  color: grey;
+}
+.btnloginsubmit
+{
+  margin-top: 5%;
+}
+.btnsigninsubmit
+{
+  margin-top: 5%;
+  color: grey;
+  font-style: italic;
+  font-weight: bolder;
+}
+.btnsigninsubmit span
+{
+  color: grey;
+  font-style: italic;
+  font-weight: bolder;
+}

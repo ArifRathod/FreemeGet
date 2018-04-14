@@ -1,0 +1,19 @@
+{
+    "PORT": 3000,
+    "HOST": "localhost",
+    "mongo": {
+        "mongohost"  : "localhost",
+        "port"      : 27017,
+        "database"  : "freemeGet",
+        "username"  : "",
+        "password"  : ""
+    },
+    "email":{
+        "service"       : "gmail",
+        "name"          : "support",
+        "user"          : "abc@gmail.com",
+        "pass"          : "abc",
+        "subject"       : "Support",
+        "from"          : "Suppot<abc@gmail.com>"
+    }
+}

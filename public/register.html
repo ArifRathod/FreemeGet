@@ -1,0 +1,37 @@
+<div class="row justify-content-md-center loginform">
+  <form class="col-4">
+    <div class="form-group">
+      <label for="exampleInputfirstname">Firstname</label>
+      <input type="text" ng-model="firstName" class="form-control" id="exampleInputfirstname" aria-describedby="firstnameHelp" placeholder="Enter Firstname...">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputLastname">Lastname</label>
+      <input type="text" ng-model="lastName" class="form-control" id="exampleInputLastname" aria-describedby="lastnameHelp" placeholder="Enter Lastname...">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" ng-model="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPhone">Phone</label>
+      <input type="text" ng-model="phone" class="form-control" id="exampleInputPhone" aria-describedby="phoneHelp" placeholder="Enter Phone Number">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputGender">Gender</label>
+      <select class="form-control" ng-model="gender" id="exampleInputGender">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" ng-model="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block" ng-click="btnSignInClick()">Sign Up</button>
+    <div class="btnsigninsubmit">
+    <span> Already have account ?  <a href="/#/login">Sign in</a></span>
+  </div>
+  </form>
+  
+</div>

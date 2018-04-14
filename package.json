@@ -1,0 +1,37 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Arif Rathod",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "node",
+    "mongoose",
+    "passport",
+    "session",
+    "express"
+  ],
+  "dependencies": {
+    "acl": "^0.4.11",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.8",
+    "express": "^4.16.1",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.12.0",
+    "nodemailer": "^4.6.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0"
+  }
+}

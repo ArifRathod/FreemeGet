@@ -1,0 +1,22 @@
+<div class="row justify-content-md-center loginform">
+  <form class="col-4">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email</label>
+      <input type="email" ng-model="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" ng-model="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div>
+      <a href="/forgotpassword">Forgot Password ?</a>
+    </div>
+    <div class="btnloginsubmit">
+      <button type="button" class="btn btn-primary btn-lg btn-block" ng-click="btnSignInClick()">Sign In</button>
+    </div>
+    <div class="btnsigninsubmit">
+      <span>Don't have account ? <a href="/#/register">Sign Up Here</a></span>
+    </div>
+  </form>
+</div>
